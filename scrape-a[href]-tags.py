@@ -3,7 +3,9 @@ import urllib.request
 import time
 from bs4 import BeautifulSoup
 
-url = 'http://web.mta.info/developers/turnstile.html'
+
+url = input("Enter Website Url :")
+#url = 'http://web.mta.info/developers/turnstile.html'
 response = requests.get(url)
 
 ### print the response
